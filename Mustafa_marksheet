@@ -1,0 +1,43 @@
+print ("\t\tMARKSHEET")
+print ("\t\t---------")
+
+print("Name: Mustafa Moiz")
+
+print("Roll.No: 12345")
+
+print("Class: X")
+
+print("--------------------")
+
+Eng_marks = int(input("Enter English Marks: "))
+
+Urdu_marks = int(input("Enter Urdu Marks: "))
+
+Maths_marks = int(input("Enter Maths Marks: "))
+
+Phy_marks = int(input("Enter Physics Marks: "))
+
+Chem_marks = int(input("Enter Chemistry Marks: "))
+
+Obtained_marks = Eng_marks + Urdu_marks + Maths_marks + Phy_marks + Chem_marks
+
+print("Obtained Marks: ", Obtained_marks)
+
+Total_marks = 450
+
+print("Total Marks: ", Total_marks)
+
+Percentage = (Obtained_marks/Total_marks)*100
+
+print("Percentage: ", Percentage)
+
+if Percentage >= 80:
+    print("Grade: A+")
+elif Percentage >70 and Percentage <80:
+    print("Grade: A")
+elif Percentage >60 and Percentage <70:
+    print("Grade: B")
+elif Percentage >50 and Percentage <60:
+    print("Grade: C")
+else:
+    print("Grade: Fail")
