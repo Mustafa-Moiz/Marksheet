@@ -21,7 +21,15 @@ Chem_marks = int(input("Enter Chemistry Marks: "))
 
 Obtained_marks = Eng_marks + Urdu_marks + Maths_marks + Phy_marks + Chem_marks
 
-print("Obtained Marks: ", Obtained_marks)
+print("\n\t\t Subject \t\t\tTotal Marks \t\t\tObtained Marks")
+print("\t\t ------- \t\t\t----------- \t\t\t--------------")
+print("\n\t\t English\t\t\t\t75 \t\t\t\t",Eng_marks)
+print("\n\t\t Urdu\t\t\t\t\t75 \t\t\t\t",Urdu_marks)
+print("\n\t\t Maths\t\t\t\t\t75 \t\t\t\t",Maths_marks)
+print("\n\t\t Physics\t\t\t\t75 \t\t\t\t",Phy_marks)
+print("\n\t\t Chemistry\t\t\t\t75 \t\t\t\t",Chem_marks)
+
+print("\nObtained Marks: ", Obtained_marks)
 
 Total_marks = 450
 
